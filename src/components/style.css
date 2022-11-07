@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: aquamarine;
+}
+.Navbar{
+    display: flex;
+    justify-content:space-between;
+    align-items:baseline;
+    height: 80px;
+    background-color: black;
+}
+.logo{
+    color: antiquewhite;
+    text-align:center;
+    margin: 0 20px;
+}
+.list
+{
+    color: aliceblue;
+    float: right;
+    list-style: none;
+    text-align: center;
+
+}
+.list li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 10px;
+    margin-right: 20px ;
+}
+.list li a{
+    color: beige;
+}
+.list li a:hover{
+ color: aqua;    
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
